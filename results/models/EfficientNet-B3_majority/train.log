@@ -1,0 +1,14 @@
+INFO:root:Starting training with mode majority, model EfficientNet-B3, max epochs 2.
+INFO:root:Loading data...
+WARNING:root:Found 6309 invalid labels. These labels will be replaced with 0.
+WARNING:root:Found 764 invalid labels. These labels will be replaced with 0.
+WARNING:root:Found 788 invalid labels. These labels will be replaced with 0.
+INFO:root:Train images shape: (28558, 48, 48, 3)
+INFO:root:Train labels shape: (28558, 8)
+INFO:root:Validation images shape: (3579, 48, 48, 3)
+INFO:root:Validation labels shape: (3579, 8)
+INFO:root:Test images shape: (3573, 48, 48, 3)
+INFO:root:Test labels shape: (3573, 8)
+INFO:root:Training the model...
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+INFO:root:Model saved to C:/Users/vuong/Documents/Code/Team12/results\models\EfficientNet-B3_majority\EfficientNet-B3_final_model.h5.
